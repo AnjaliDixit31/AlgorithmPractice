@@ -8,7 +8,7 @@ public class BinarySearch {
             if(foundIndex==-1)
                 System.out.println("Element not found");
             else
-                System.out.println("Element present in " +foundIndex+" index ");
+                System.out.println("Element present in array " +foundIndex+" index ");
 
         }
         static int binarySearch(int[] array, int search)
